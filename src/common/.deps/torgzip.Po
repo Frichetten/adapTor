@@ -1,0 +1,130 @@
+src/common/torgzip.o: src/common/torgzip.c orconfig.h \
+ c:\mingw\include\stdlib.h c:\mingw\include\_mingw.h \
+ c:\mingw\lib\gcc\mingw32\5.3.0\include\stddef.h c:\mingw\include\stdio.h \
+ c:\mingw\lib\gcc\mingw32\5.3.0\include\stdarg.h \
+ c:\mingw\include\sys\types.h c:\mingw\include\assert.h \
+ c:\mingw\include\string.h src/common/torint.h \
+ c:\mingw\lib\gcc\mingw32\5.3.0\include\stdint.h \
+ c:\mingw\include\stdint.h c:\mingw\include\limits.h \
+ c:\mingw\include\inttypes.h src/common/util.h src/common/compat.h \
+ c:\mingw\include\winsock2.h c:\mingw\include\windows.h \
+ c:\mingw\include\windef.h c:\mingw\include\winnt.h \
+ c:\mingw\include\winerror.h c:\mingw\include\basetsd.h \
+ c:\mingw\include\pshpack4.h c:\mingw\include\poppack.h \
+ c:\mingw\include\wincon.h c:\mingw\include\winbase.h \
+ c:\mingw\include\wingdi.h c:\mingw\include\winuser.h \
+ c:\mingw\include\winnls.h c:\mingw\include\winver.h \
+ c:\mingw\include\winnetwk.h c:\mingw\include\winreg.h \
+ c:\mingw\include\winsvc.h c:\mingw\include\ws2tcpip.h \
+ src/common/testsupport.h c:\mingw\include\sys\param.h \
+ c:\mingw\include\sys\time.h c:\mingw\include\time.h \
+ src/common/compat_time.h c:\mingw\include\errno.h \
+ src/common/compat_threads.h src/common/di_ops.h \
+ c:\mingw\include\sys\stat.h src/common/util_bug.h src/common/torlog.h \
+ src/common/torgzip.h ../zlib-1.2.11/zlib.h ../zlib-1.2.11/zconf.h \
+ c:\mingw\include\unistd.h c:\mingw\include\io.h \
+ c:\mingw\include\process.h c:\mingw\include\getopt.h
+
+orconfig.h:
+
+c:\mingw\include\stdlib.h:
+
+c:\mingw\include\_mingw.h:
+
+c:\mingw\lib\gcc\mingw32\5.3.0\include\stddef.h:
+
+c:\mingw\include\stdio.h:
+
+c:\mingw\lib\gcc\mingw32\5.3.0\include\stdarg.h:
+
+c:\mingw\include\sys\types.h:
+
+c:\mingw\include\assert.h:
+
+c:\mingw\include\string.h:
+
+src/common/torint.h:
+
+c:\mingw\lib\gcc\mingw32\5.3.0\include\stdint.h:
+
+c:\mingw\include\stdint.h:
+
+c:\mingw\include\limits.h:
+
+c:\mingw\include\inttypes.h:
+
+src/common/util.h:
+
+src/common/compat.h:
+
+c:\mingw\include\winsock2.h:
+
+c:\mingw\include\windows.h:
+
+c:\mingw\include\windef.h:
+
+c:\mingw\include\winnt.h:
+
+c:\mingw\include\winerror.h:
+
+c:\mingw\include\basetsd.h:
+
+c:\mingw\include\pshpack4.h:
+
+c:\mingw\include\poppack.h:
+
+c:\mingw\include\wincon.h:
+
+c:\mingw\include\winbase.h:
+
+c:\mingw\include\wingdi.h:
+
+c:\mingw\include\winuser.h:
+
+c:\mingw\include\winnls.h:
+
+c:\mingw\include\winver.h:
+
+c:\mingw\include\winnetwk.h:
+
+c:\mingw\include\winreg.h:
+
+c:\mingw\include\winsvc.h:
+
+c:\mingw\include\ws2tcpip.h:
+
+src/common/testsupport.h:
+
+c:\mingw\include\sys\param.h:
+
+c:\mingw\include\sys\time.h:
+
+c:\mingw\include\time.h:
+
+src/common/compat_time.h:
+
+c:\mingw\include\errno.h:
+
+src/common/compat_threads.h:
+
+src/common/di_ops.h:
+
+c:\mingw\include\sys\stat.h:
+
+src/common/util_bug.h:
+
+src/common/torlog.h:
+
+src/common/torgzip.h:
+
+../zlib-1.2.11/zlib.h:
+
+../zlib-1.2.11/zconf.h:
+
+c:\mingw\include\unistd.h:
+
+c:\mingw\include\io.h:
+
+c:\mingw\include\process.h:
+
+c:\mingw\include\getopt.h:

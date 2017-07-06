@@ -1,0 +1,36 @@
+src/ext/ed25519/ref10/src_ext_ed25519_ref10_libed25519_ref10_a-sc_muladd.o: \
+ src/ext/ed25519/ref10/sc_muladd.c src/ext/ed25519/ref10/sc.h \
+ src/ext/ed25519/ref10/crypto_int64.h src/common/torint.h orconfig.h \
+ c:\mingw\lib\gcc\mingw32\5.3.0\include\stdint.h \
+ c:\mingw\include\stdint.h \
+ c:\mingw\lib\gcc\mingw32\5.3.0\include\stddef.h \
+ c:\mingw\include\sys\types.h c:\mingw\include\_mingw.h \
+ c:\mingw\include\limits.h c:\mingw\include\inttypes.h \
+ src/ext/ed25519/ref10/crypto_uint32.h \
+ src/ext/ed25519/ref10/crypto_uint64.h
+
+src/ext/ed25519/ref10/sc.h:
+
+src/ext/ed25519/ref10/crypto_int64.h:
+
+src/common/torint.h:
+
+orconfig.h:
+
+c:\mingw\lib\gcc\mingw32\5.3.0\include\stdint.h:
+
+c:\mingw\include\stdint.h:
+
+c:\mingw\lib\gcc\mingw32\5.3.0\include\stddef.h:
+
+c:\mingw\include\sys\types.h:
+
+c:\mingw\include\_mingw.h:
+
+c:\mingw\include\limits.h:
+
+c:\mingw\include\inttypes.h:
+
+src/ext/ed25519/ref10/crypto_uint32.h:
+
+src/ext/ed25519/ref10/crypto_uint64.h:

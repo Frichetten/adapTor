@@ -1,0 +1,233 @@
+src/test/src_test_test-test_options.o: src/test/test_options.c \
+ src/or/or.h orconfig.h c:\mingw\include\unistd.h c:\mingw\include\io.h \
+ c:\mingw\include\_mingw.h c:\mingw\include\sys\types.h \
+ c:\mingw\lib\gcc\mingw32\5.3.0\include\stddef.h \
+ c:\mingw\include\process.h \
+ c:\mingw\lib\gcc\mingw32\5.3.0\include\stdint.h \
+ c:\mingw\include\stdint.h c:\mingw\include\getopt.h \
+ c:\mingw\include\signal.h c:\mingw\include\sys\param.h \
+ c:\mingw\include\limits.h src/common/torint.h \
+ c:\mingw\include\inttypes.h c:\mingw\include\sys\fcntl.h \
+ c:\mingw\include\fcntl.h c:\mingw\include\sys\stat.h \
+ c:\mingw\include\errno.h c:\mingw\include\assert.h \
+ c:\mingw\include\time.h c:\mingw\include\winsock2.h \
+ c:\mingw\include\windows.h \
+ c:\mingw\lib\gcc\mingw32\5.3.0\include\stdarg.h \
+ c:\mingw\include\windef.h c:\mingw\include\winnt.h \
+ c:\mingw\include\winerror.h c:\mingw\include\string.h \
+ c:\mingw\include\basetsd.h c:\mingw\include\pshpack4.h \
+ c:\mingw\include\poppack.h c:\mingw\include\wincon.h \
+ c:\mingw\include\winbase.h c:\mingw\include\wingdi.h \
+ c:\mingw\include\winuser.h c:\mingw\include\winnls.h \
+ c:\mingw\include\winver.h c:\mingw\include\winnetwk.h \
+ c:\mingw\include\winreg.h c:\mingw\include\winsvc.h \
+ c:\mingw\include\direct.h src/common/crypto.h c:\mingw\include\stdio.h \
+ src/common/torint.h src/common/testsupport.h src/common/compat.h \
+ c:\mingw\include\ws2tcpip.h c:\mingw\include\sys\time.h \
+ src/common/compat_time.h src/common/compat_threads.h \
+ src/common/crypto_format.h src/common/crypto_ed25519.h \
+ src/common/crypto_curve25519.h src/common/tortls.h src/common/crypto.h \
+ src/common/compat_openssl.h ../openssl-1.0.1h/include/openssl/opensslv.h \
+ src/common/torlog.h src/common/container.h src/common/util.h \
+ src/common/di_ops.h c:\mingw\include\stdlib.h src/common/util_bug.h \
+ src/ext/siphash.h src/common/torgzip.h src/common/address.h \
+ src/common/container.h src/common/compat_libevent.h \
+ C:/MinGW/msys/1.0/local/include/event2/event.h \
+ C:/MinGW/msys/1.0/local/include/event2/event-config.h \
+ C:/MinGW/msys/1.0/local/include/event2/util.h src/ext/ht.h \
+ src/or/replaycache.h src/common/crypto_curve25519.h \
+ src/common/crypto_ed25519.h src/ext/tor_queue.h src/common/util_format.h \
+ src/or/hs_circuitmap.h src/or/confparse.h src/or/config.h \
+ src/common/testsupport.h src/test/test.h src/common/compat.h \
+ src/ext/tinytest.h src/ext/tinytest_macros.h src/or/geoip.h \
+ src/or/routerset.h src/or/main.h src/test/log_test_helpers.h \
+ src/common/sandbox.h src/common/memarea.h src/or/policies.h \
+ src/test/test_helpers.h
+
+src/or/or.h:
+
+orconfig.h:
+
+c:\mingw\include\unistd.h:
+
+c:\mingw\include\io.h:
+
+c:\mingw\include\_mingw.h:
+
+c:\mingw\include\sys\types.h:
+
+c:\mingw\lib\gcc\mingw32\5.3.0\include\stddef.h:
+
+c:\mingw\include\process.h:
+
+c:\mingw\lib\gcc\mingw32\5.3.0\include\stdint.h:
+
+c:\mingw\include\stdint.h:
+
+c:\mingw\include\getopt.h:
+
+c:\mingw\include\signal.h:
+
+c:\mingw\include\sys\param.h:
+
+c:\mingw\include\limits.h:
+
+src/common/torint.h:
+
+c:\mingw\include\inttypes.h:
+
+c:\mingw\include\sys\fcntl.h:
+
+c:\mingw\include\fcntl.h:
+
+c:\mingw\include\sys\stat.h:
+
+c:\mingw\include\errno.h:
+
+c:\mingw\include\assert.h:
+
+c:\mingw\include\time.h:
+
+c:\mingw\include\winsock2.h:
+
+c:\mingw\include\windows.h:
+
+c:\mingw\lib\gcc\mingw32\5.3.0\include\stdarg.h:
+
+c:\mingw\include\windef.h:
+
+c:\mingw\include\winnt.h:
+
+c:\mingw\include\winerror.h:
+
+c:\mingw\include\string.h:
+
+c:\mingw\include\basetsd.h:
+
+c:\mingw\include\pshpack4.h:
+
+c:\mingw\include\poppack.h:
+
+c:\mingw\include\wincon.h:
+
+c:\mingw\include\winbase.h:
+
+c:\mingw\include\wingdi.h:
+
+c:\mingw\include\winuser.h:
+
+c:\mingw\include\winnls.h:
+
+c:\mingw\include\winver.h:
+
+c:\mingw\include\winnetwk.h:
+
+c:\mingw\include\winreg.h:
+
+c:\mingw\include\winsvc.h:
+
+c:\mingw\include\direct.h:
+
+src/common/crypto.h:
+
+c:\mingw\include\stdio.h:
+
+src/common/torint.h:
+
+src/common/testsupport.h:
+
+src/common/compat.h:
+
+c:\mingw\include\ws2tcpip.h:
+
+c:\mingw\include\sys\time.h:
+
+src/common/compat_time.h:
+
+src/common/compat_threads.h:
+
+src/common/crypto_format.h:
+
+src/common/crypto_ed25519.h:
+
+src/common/crypto_curve25519.h:
+
+src/common/tortls.h:
+
+src/common/crypto.h:
+
+src/common/compat_openssl.h:
+
+../openssl-1.0.1h/include/openssl/opensslv.h:
+
+src/common/torlog.h:
+
+src/common/container.h:
+
+src/common/util.h:
+
+src/common/di_ops.h:
+
+c:\mingw\include\stdlib.h:
+
+src/common/util_bug.h:
+
+src/ext/siphash.h:
+
+src/common/torgzip.h:
+
+src/common/address.h:
+
+src/common/container.h:
+
+src/common/compat_libevent.h:
+
+C:/MinGW/msys/1.0/local/include/event2/event.h:
+
+C:/MinGW/msys/1.0/local/include/event2/event-config.h:
+
+C:/MinGW/msys/1.0/local/include/event2/util.h:
+
+src/ext/ht.h:
+
+src/or/replaycache.h:
+
+src/common/crypto_curve25519.h:
+
+src/common/crypto_ed25519.h:
+
+src/ext/tor_queue.h:
+
+src/common/util_format.h:
+
+src/or/hs_circuitmap.h:
+
+src/or/confparse.h:
+
+src/or/config.h:
+
+src/common/testsupport.h:
+
+src/test/test.h:
+
+src/common/compat.h:
+
+src/ext/tinytest.h:
+
+src/ext/tinytest_macros.h:
+
+src/or/geoip.h:
+
+src/or/routerset.h:
+
+src/or/main.h:
+
+src/test/log_test_helpers.h:
+
+src/common/sandbox.h:
+
+src/common/memarea.h:
+
+src/or/policies.h:
+
+src/test/test_helpers.h:
