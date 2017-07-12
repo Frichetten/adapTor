@@ -35,9 +35,11 @@ PATH: /c/Windows/system32
 PATH: /c/Windows
 PATH: /c/Windows/System32/Wbem
 PATH: /c/Windows/System32/WindowsPowerShell/v1.0/
+PATH: /c/Program Files/Git/cmd
 PATH: .
 PATH: /mingw/bin
 PATH: /c/Program Files (x86)/NSIS
+PATH: /c/Program Files (x86)/Microsoft VS Code/bin
 
 
 ## ----------- ##
@@ -555,7 +557,7 @@ configure: failed program was:
 configure:7589: result: no
 configure:7608: checking for library containing socket
 configure:7639: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c  >&5
-C:\Users\VAM\AppData\Local\Temp\ccyWfEjh.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccQxivui.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:38: undefined reference to `socket'
 collect2.exe: error: ld returned 1 exit status
 configure:7639: $? = 1
@@ -696,7 +698,7 @@ configure: failed program was:
 configure:7656: result: no
 configure:7664: checking for library containing gethostbyname
 configure:7695: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c  >&5
-C:\Users\VAM\AppData\Local\Temp\ccu5Pt7y.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccOPmclF.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:38: undefined reference to `gethostbyname'
 collect2.exe: error: ld returned 1 exit status
 configure:7695: $? = 1
@@ -795,7 +797,7 @@ configure:7751: $? = 0
 configure:7768: result: none required
 configure:7776: checking for library containing inet_aton
 configure:7807: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c  >&5
-C:\Users\VAM\AppData\Local\Temp\ccyxLxy2.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc8SZOvq.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:38: undefined reference to `inet_aton'
 collect2.exe: error: ld returned 1 exit status
 configure:7807: $? = 1
@@ -890,7 +892,7 @@ configure: failed program was:
 configure:7824: result: no
 configure:7832: checking for library containing backtrace
 configure:7863: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c  >&5
-C:\Users\VAM\AppData\Local\Temp\ccCG3HJR.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccOuyR02.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:38: undefined reference to `backtrace'
 collect2.exe: error: ld returned 1 exit status
 configure:7863: $? = 1
@@ -985,7 +987,7 @@ configure: failed program was:
 configure:7880: result: no
 configure:7889: checking for library containing clock_gettime
 configure:7920: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c  >&5
-C:\Users\VAM\AppData\Local\Temp\ccW4IYsZ.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccwKypL0.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:38: undefined reference to `clock_gettime'
 collect2.exe: error: ld returned 1 exit status
 configure:7920: $? = 1
@@ -1080,7 +1082,7 @@ configure: failed program was:
 configure:7937: result: no
 configure:7950: checking for library containing pthread_create
 configure:7981: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c  >&5
-C:\Users\VAM\AppData\Local\Temp\ccowY2XJ.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccmeTOuB.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:38: undefined reference to `pthread_create'
 collect2.exe: error: ld returned 1 exit status
 configure:7981: $? = 1
@@ -1135,7 +1137,7 @@ configure:8037: $? = 0
 configure:8054: result: none required
 configure:8130: checking for _NSGetEnviron
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccUkUHOa.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccsYdYSW.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:61: undefined reference to `_NSGetEnviron'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -1207,7 +1209,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for RtlSecureZeroMemory
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccqqRJov.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccOYySLl.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:61: undefined reference to `RtlSecureZeroMemory'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -1279,7 +1281,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for SecureZeroMemory
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccqgevob.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccgQhTG7.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:61: undefined reference to `SecureZeroMemory'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -1351,7 +1353,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for accept4
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccmyYMgR.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccuHagvk.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:61: undefined reference to `accept4'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -1423,7 +1425,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for backtrace
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccivY6gf.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccYPVtT6.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:61: undefined reference to `backtrace'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -1495,7 +1497,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for backtrace_symbols_fd
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccwS0UbP.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccojSCsm.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:61: undefined reference to `backtrace_symbols_fd'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -1567,7 +1569,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for eventfd
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccaVtrsx.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc26XgOL.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:61: undefined reference to `eventfd'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -1639,7 +1641,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for explicit_bzero
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccYWtfA8.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc9V2LNh.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:61: undefined reference to `explicit_bzero'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -1711,7 +1713,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for timingsafe_memcmp
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccKAEjTs.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccDBHsxg.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:61: undefined reference to `timingsafe_memcmp'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -1783,7 +1785,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for flock
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccKuXhl6.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc4Igvui.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:61: undefined reference to `flock'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -1859,7 +1861,7 @@ configure:8130: $? = 0
 configure:8130: result: yes
 configure:8130: checking for getaddrinfo
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccqecj9m.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc8qZ0AP.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:62: undefined reference to `getaddrinfo'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -1932,7 +1934,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for getifaddrs
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cc2GzAJH.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccQtFAGC.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:62: undefined reference to `getifaddrs'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2005,7 +2007,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for getpass
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cck6RYyi.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc5jH3Qm.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:62: undefined reference to `getpass'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2078,7 +2080,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for getrlimit
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccOJoAO0.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cciBhTG7.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:62: undefined reference to `getrlimit'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2155,7 +2157,7 @@ configure:8130: $? = 0
 configure:8130: result: yes
 configure:8130: checking for gmtime_r
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cc0otdRX.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccEJWE2s.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:63: undefined reference to `gmtime_r'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2229,7 +2231,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for htonll
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccycexSK.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc2TbWrc.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:63: undefined reference to `htonll'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2303,7 +2305,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for inet_aton
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cc0ecj9m.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccsW4T2C.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:63: undefined reference to `inet_aton'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2377,7 +2379,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for ioctl
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccgeWKxG.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccqDr0Gh.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:63: undefined reference to `ioctl'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2451,7 +2453,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for issetugid
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccICHtCn.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccipYfzX.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:63: undefined reference to `issetugid'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2532,7 +2534,7 @@ configure:8130: $? = 0
 configure:8130: result: yes
 configure:8130: checking for localtime_r
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cc2PnMJw.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cce6bM97.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:64: undefined reference to `localtime_r'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2614,7 +2616,7 @@ configure:8130: $? = 0
 configure:8130: result: yes
 configure:8130: checking for memmem
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cc81eRGs.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccCdUzq6.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:65: undefined reference to `memmem'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2690,7 +2692,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for memset_s
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccGvXhl6.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccEzKu7m.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:65: undefined reference to `memset_s'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2766,7 +2768,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for pipe
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccscH2cM.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc6XuJAW.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:65: undefined reference to `pipe'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2842,7 +2844,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for pipe2
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccM8drRp.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cccovrp6.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:65: undefined reference to `pipe2'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2918,7 +2920,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for prctl
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccoBTkzR.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc8KYQmR.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:65: undefined reference to `prctl'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -2994,7 +2996,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for readpassphrase
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccUzkrsr.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cckKHDjM.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:65: undefined reference to `readpassphrase'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3077,7 +3079,7 @@ configure:8130: $? = 0
 configure:8130: result: yes
 configure:8130: checking for sigaction
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccAqlOSD.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccW1Vg94.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:66: undefined reference to `sigaction'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3154,7 +3156,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for socketpair
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccUyQekg.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc6UKMhy.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:66: undefined reference to `socketpair'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3231,7 +3233,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for statvfs
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccgrvr2j.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccm45MkO.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:66: undefined reference to `statvfs'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3308,7 +3310,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for strlcat
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccwxKj5S.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccquYQmR.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:66: undefined reference to `strlcat'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3385,7 +3387,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for strlcpy
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccKyDBpD.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccIAX0AP.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:66: undefined reference to `strlcpy'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3462,7 +3464,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for strnlen
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cc8YCD4b.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccQpgOSe.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:66: undefined reference to `strnlen'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3539,7 +3541,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for strptime
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccAkjwsA.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc2X9dpa.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:66: undefined reference to `strptime'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3616,7 +3618,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for strtok_r
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccEaPDTd.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccoJOCbb.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:66: undefined reference to `strtok_r'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3697,7 +3699,7 @@ configure:8130: $? = 0
 configure:8130: result: yes
 configure:8130: checking for sysconf
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cc3yNtcl.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccqk4LzN.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:67: undefined reference to `sysconf'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3775,7 +3777,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for sysctl
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccYvHFuM.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccAexTiJ.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:67: undefined reference to `sysctl'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3853,7 +3855,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for truncate
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccCQRtCt.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccwA9hNr.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:67: undefined reference to `truncate'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -3931,7 +3933,7 @@ configure: failed program was:
 configure:8130: result: no
 configure:8130: checking for uname
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cc0qevw3.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cciPSjU9.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:67: undefined reference to `uname'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -4013,7 +4015,7 @@ configure:8130: $? = 0
 configure:8130: result: yes
 configure:8130: checking for vasprintf
 configure:8130: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccGP622Y.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccgQNPAk.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:68: undefined reference to `vasprintf'
 collect2.exe: error: ld returned 1 exit status
 configure:8130: $? = 1
@@ -4100,7 +4102,7 @@ configure:8169: $? = 0
 configure:8170: result: no
 configure:8184: checking for clock_gettime
 configure:8184: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccqI1Bbd.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccgoc4S3.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:69: undefined reference to `clock_gettime'
 collect2.exe: error: ld returned 1 exit status
 configure:8184: $? = 1
@@ -4180,7 +4182,7 @@ configure: failed program was:
 configure:8184: result: no
 configure:8184: checking for getentropy
 configure:8184: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccausaYT.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccGcY0AP.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:69: undefined reference to `getentropy'
 collect2.exe: error: ld returned 1 exit status
 configure:8184: $? = 1
@@ -4549,7 +4551,7 @@ configure:8658: checking for event2/bufferevent_ssl.h
 configure:8658: result: yes
 configure:8810: checking for evutil_secure_rng_set_urandom_device_file
 configure:8810: gcc -o conftest.exe -g -O2 -I/usr/local/include  -I${top_srcdir}/src/common -L/usr/local/lib  conftest.c  -lws2_32 -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccchPDTd.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccsiJMhy.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:74: undefined reference to `evutil_secure_rng_set_urandom_device_file'
 collect2.exe: error: ld returned 1 exit status
 configure:8810: $? = 1
@@ -4634,7 +4636,7 @@ configure: failed program was:
 configure:8810: result: no
 configure:8810: checking for evutil_secure_rng_add_bytes
 configure:8810: gcc -o conftest.exe -g -O2 -I/usr/local/include  -I${top_srcdir}/src/common -L/usr/local/lib  conftest.c  -lws2_32 -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccMRojzY.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccK1TkXi.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:74: undefined reference to `evutil_secure_rng_add_bytes'
 collect2.exe: error: ld returned 1 exit status
 configure:8810: $? = 1
@@ -4750,7 +4752,7 @@ configure:9323: $? = 0
 configure:9323: result: yes
 configure:9346: checking for SSL_SESSION_get_master_key
 configure:9346: gcc -o conftest.exe -g -O2 -I../openssl-1.0.1h/include  -I${top_srcdir}/src/common -L../openssl-1.0.1h  conftest.c ../openssl-1.0.1h/libssl.a ../openssl-1.0.1h/libcrypto.a -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccKblwsA.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccCRZp75.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:75: undefined reference to `SSL_SESSION_get_master_key'
 collect2.exe: error: ld returned 1 exit status
 configure:9346: $? = 1
@@ -4836,7 +4838,7 @@ configure: failed program was:
 configure:9346: result: no
 configure:9346: checking for SSL_get_server_random
 configure:9346: gcc -o conftest.exe -g -O2 -I../openssl-1.0.1h/include  -I${top_srcdir}/src/common -L../openssl-1.0.1h  conftest.c ../openssl-1.0.1h/libssl.a ../openssl-1.0.1h/libcrypto.a -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccCVQekg.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cccNJu7m.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:75: undefined reference to `SSL_get_server_random'
 collect2.exe: error: ld returned 1 exit status
 configure:9346: $? = 1
@@ -4922,7 +4924,7 @@ configure: failed program was:
 configure:9346: result: no
 configure:9346: checking for SSL_get_client_ciphers
 configure:9346: gcc -o conftest.exe -g -O2 -I../openssl-1.0.1h/include  -I${top_srcdir}/src/common -L../openssl-1.0.1h  conftest.c ../openssl-1.0.1h/libssl.a ../openssl-1.0.1h/libcrypto.a -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cceVojzY.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cce6zR02.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:75: undefined reference to `SSL_get_client_ciphers'
 collect2.exe: error: ld returned 1 exit status
 configure:9346: $? = 1
@@ -5008,7 +5010,7 @@ configure: failed program was:
 configure:9346: result: no
 configure:9346: checking for SSL_get_client_random
 configure:9346: gcc -o conftest.exe -g -O2 -I../openssl-1.0.1h/include  -I${top_srcdir}/src/common -L../openssl-1.0.1h  conftest.c ../openssl-1.0.1h/libssl.a ../openssl-1.0.1h/libcrypto.a -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cc0smW5o.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccQHyC0n.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:75: undefined reference to `SSL_get_client_random'
 collect2.exe: error: ld returned 1 exit status
 configure:9346: $? = 1
@@ -5094,7 +5096,7 @@ configure: failed program was:
 configure:9346: result: no
 configure:9346: checking for SSL_CIPHER_find
 configure:9346: gcc -o conftest.exe -g -O2 -I../openssl-1.0.1h/include  -I${top_srcdir}/src/common -L../openssl-1.0.1h  conftest.c ../openssl-1.0.1h/libssl.a ../openssl-1.0.1h/libcrypto.a -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccgZsf04.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccSVjf6J.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:75: undefined reference to `SSL_CIPHER_find'
 collect2.exe: error: ld returned 1 exit status
 configure:9346: $? = 1
@@ -5180,7 +5182,7 @@ configure: failed program was:
 configure:9346: result: no
 configure:9346: checking for TLS_method
 configure:9346: gcc -o conftest.exe -g -O2 -I../openssl-1.0.1h/include  -I${top_srcdir}/src/common -L../openssl-1.0.1h  conftest.c ../openssl-1.0.1h/libssl.a ../openssl-1.0.1h/libcrypto.a -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cc4ecxSK.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccunXe28.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:75: undefined reference to `TLS_method'
 collect2.exe: error: ld returned 1 exit status
 configure:9346: $? = 1
@@ -5266,7 +5268,7 @@ configure: failed program was:
 configure:9346: result: no
 configure:9359: checking for EVP_PBE_scrypt
 configure:9359: gcc -o conftest.exe -g -O2 -I../openssl-1.0.1h/include  -I${top_srcdir}/src/common -L../openssl-1.0.1h  conftest.c ../openssl-1.0.1h/libssl.a ../openssl-1.0.1h/libcrypto.a -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cciqEl0r.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccIaDxC2.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:75: undefined reference to `EVP_PBE_scrypt'
 collect2.exe: error: ld returned 1 exit status
 configure:9359: $? = 1
@@ -5368,7 +5370,7 @@ configure:9672: $? = 0
 configure:9693: result: (none)
 configure:9724: checking for cap_init in -lcap
 configure:9749: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lcap  -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccUFX6gf.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc8DzoE1.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:53: undefined reference to `cap_init'
 collect2.exe: error: ld returned 1 exit status
 configure:9749: $? = 1
@@ -5433,7 +5435,7 @@ configure:9758: result: no
 configure:9768: Libcap was not found. Capabilities will not be usable.
 configure:9775: checking for cap_set_proc
 configure:9775: gcc -o conftest.exe -g -O2  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccIzHFuM.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cck77Wlp.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:76: undefined reference to `cap_set_proc'
 collect2.exe: error: ld returned 1 exit status
 configure:9775: $? = 1
@@ -5834,7 +5836,7 @@ configure:10900: checking for seccomp.h
 configure:10900: result: no
 configure:10910: checking for library containing seccomp_init
 configure:10941: gcc -o conftest.exe -g -O2 -fasynchronous-unwind-tables  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccmztTgw.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cc45YYyE.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:53: undefined reference to `seccomp_init'
 collect2.exe: error: ld returned 1 exit status
 configure:10941: $? = 1
@@ -6092,7 +6094,7 @@ configure:10972: checking for libscrypt.h
 configure:10972: result: no
 configure:10982: checking for library containing libscrypt_scrypt
 configure:11013: gcc -o conftest.exe -g -O2 -fasynchronous-unwind-tables  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cccZPDTd.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccAzFGA3.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:53: undefined reference to `libscrypt_scrypt'
 collect2.exe: error: ld returned 1 exit status
 configure:11013: $? = 1
@@ -6217,7 +6219,7 @@ configure: failed program was:
 configure:11030: result: no
 configure:11040: checking for libscrypt_scrypt
 configure:11040: gcc -o conftest.exe -g -O2 -fasynchronous-unwind-tables  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccu8RoCk.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccIkP8Jf.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:76: undefined reference to `libscrypt_scrypt'
 collect2.exe: error: ld returned 1 exit status
 configure:11040: $? = 1
@@ -17700,7 +17702,7 @@ configure:13211: checking whether to use dmalloc (debug memory allocation librar
 configure:13226: result: no
 configure:13345: checking for mallinfo
 configure:13345: gcc -o conftest.exe -g -O2 -fasynchronous-unwind-tables  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccSkPx1O.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccoArA1D.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:132: undefined reference to `mallinfo'
 collect2.exe: error: ld returned 1 exit status
 configure:13345: $? = 1
@@ -17843,7 +17845,7 @@ configure: failed program was:
 configure:13345: result: no
 configure:13362: checking for mlockall
 configure:13362: gcc -o conftest.exe -g -O2 -fasynchronous-unwind-tables  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccYNAGAo.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\cckuvyZe.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:132: undefined reference to `mlockall'
 collect2.exe: error: ld returned 1 exit status
 configure:13362: $? = 1
@@ -18239,7 +18241,7 @@ configure: failed program was:
 configure:13390: result: no
 configure:13426: checking for getresuid
 configure:13426: gcc -o conftest.exe -g -O2 -fasynchronous-unwind-tables  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccip5HJR.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccCOHDjM.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:135: undefined reference to `getresuid'
 collect2.exe: error: ld returned 1 exit status
 configure:13426: $? = 1
@@ -18385,7 +18387,7 @@ configure: failed program was:
 configure:13426: result: no
 configure:13426: checking for getresgid
 configure:13426: gcc -o conftest.exe -g -O2 -fasynchronous-unwind-tables  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\cc2Etrsx.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccWIZPgl.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:135: undefined reference to `getresgid'
 collect2.exe: error: ld returned 1 exit status
 configure:13426: $? = 1
@@ -18531,7 +18533,7 @@ configure: failed program was:
 configure:13426: result: no
 configure:13440: checking for gethostbyname_r
 configure:13440: gcc -o conftest.exe -g -O2 -fasynchronous-unwind-tables  -I${top_srcdir}/src/common  conftest.c -lpthread  >&5
-C:\Users\VAM\AppData\Local\Temp\ccIYKxy2.o: In function `main':
+C:\Users\VAM\AppData\Local\Temp\ccI6NtmE.o: In function `main':
 C:\MinGW\msys\1.0\home\VAM\tor-mingw\tor-0.3.0.9/conftest.c:135: undefined reference to `gethostbyname_r'
 collect2.exe: error: ld returned 1 exit status
 configure:13440: $? = 1
@@ -41029,550 +41031,6 @@ target_alias=''
 #define HAVE_CFLAG_WOVERLENGTH_STRINGS 1
 
 configure: exit 0
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-gencert.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-gencert.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-resolve.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-resolve.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/torify.1
-
-on VAM-PC
-
-config.status:1035: creating doc/torify.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-gencert.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-gencert.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-resolve.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-resolve.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/torify.html
-
-on VAM-PC
-
-config.status:1035: creating doc/torify.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-gencert.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-gencert.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-resolve.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-resolve.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/torify.1
-
-on VAM-PC
-
-config.status:1035: creating doc/torify.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-gencert.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-gencert.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-resolve.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-resolve.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/torify.html
-
-on VAM-PC
-
-config.status:1035: creating doc/torify.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-gencert.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-gencert.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-resolve.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-resolve.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/torify.1
-
-on VAM-PC
-
-config.status:1035: creating doc/torify.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-gencert.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-gencert.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-resolve.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-resolve.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/torify.html
-
-on VAM-PC
-
-config.status:1035: creating doc/torify.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-gencert.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-gencert.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-resolve.1
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-resolve.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/torify.1
-
-on VAM-PC
-
-config.status:1035: creating doc/torify.1
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-gencert.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-gencert.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/tor-resolve.html
-
-on VAM-PC
-
-config.status:1035: creating doc/tor-resolve.html
-
-## ---------------------- ##
-## Running config.status. ##
-## ---------------------- ##
-
-This file was extended by tor config.status 0.3.0.9, which was
-generated by GNU Autoconf 2.69.  Invocation command line was
-
-  CONFIG_FILES    = 
-  CONFIG_HEADERS  = 
-  CONFIG_LINKS    = 
-  CONFIG_COMMANDS = 
-  $ ./config.status -q --file=doc/torify.html
-
-on VAM-PC
-
-config.status:1035: creating doc/torify.html
 
 ## ---------------------- ##
 ## Running config.status. ##

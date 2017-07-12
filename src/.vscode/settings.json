@@ -1,6 +1,12 @@
 {
     "files.associations": {
         "config.h": "c",
-        "ht.h": "c"
+        "ht.h": "c",
+        "connection_edge.h": "c",
+        "connection.h": "c",
+        "or.h": "c",
+        "util_bug.h": "c",
+        "channeltls.h": "c",
+        "dns_structs.h": "c"
     }
 }

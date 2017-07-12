@@ -912,7 +912,7 @@ connection_ap_attach_pending(int retry)
         connection_mark_unattached_ap(entry_conn,
                                       END_STREAM_REASON_CANT_ATTACH);
     }
-
+    //printf("Attempting to send communication\n");
     if (! conn->marked_for_close &&
         conn->type == CONN_TYPE_AP &&
         conn->state == AP_CONN_STATE_CIRCUIT_WAIT) {
@@ -2553,8 +2553,8 @@ connection_ap_handshake_send_begin(entry_connection_t *ap_conn)
   control_event_stream_status(ap_conn, STREAM_EVENT_SENT_CONNECT, 0);
 
   /* If there's queued-up data, send it now */
-  if ((connection_get_inbuf_len(base_conn) ||
-       ap_conn->sending_optimistic_data) &&
+  //printf("Sending queued up data\n");
+  if ((connection_get_inbuf_len(base_conn) || ap_conn->sending_optimistic_data) &&
       connection_ap_supports_optimistic_data(ap_conn)) {
     log_info(LD_APP, "Sending up to %ld + %ld bytes of queued-up data",
              (long)connection_get_inbuf_len(base_conn),

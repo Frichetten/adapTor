@@ -1936,12 +1936,13 @@ connection_edge_package_raw_inbuf(edge_connection_t *conn, int package_partial,
   }
   stats_n_data_bytes_packaged += length;
   stats_n_data_cells_packaged += 1;
-
+  //printf("||%s\n",payload);
   if (PREDICT_UNLIKELY(sending_from_optimistic)) {
     /* XXXX We could be more efficient here by sometimes packing
      * previously-sent optimistic data in the same cell with data
      * from the inbuf. */
     fetch_from_buf(payload, length, entry_conn->sending_optimistic_data);
+    //printf("%s\n",payload);
     if (!buf_datalen(entry_conn->sending_optimistic_data)) {
         buf_free(entry_conn->sending_optimistic_data);
         entry_conn->sending_optimistic_data = NULL;
@@ -1949,7 +1950,7 @@ connection_edge_package_raw_inbuf(edge_connection_t *conn, int package_partial,
   } else {
     connection_fetch_from_buf(payload, length, TO_CONN(conn));
   }
-
+  printf("||%s\n",payload);
   log_debug(domain,TOR_SOCKET_T_FORMAT": Packaging %d bytes (%d waiting).",
             conn->base_.s,
             (int)length, (int)connection_get_inbuf_len(TO_CONN(conn)));
@@ -1961,12 +1962,13 @@ connection_edge_package_raw_inbuf(edge_connection_t *conn, int package_partial,
       entry_conn->pending_optimistic_data = buf_new();
     write_to_buf(payload, length, entry_conn->pending_optimistic_data);
   }
-
-  if (connection_edge_send_command(conn, RELAY_COMMAND_DATA,
-                                   payload, length) < 0 )
+  
+  //This is the actual function to send information
+  if (connection_edge_send_command(conn, RELAY_COMMAND_DATA, payload, length) < 0 )
     /* circuit got marked for close, don't continue, don't need to mark conn */
     return 0;
-
+    
+  //printf("Is this the data transfer?\n");
   if (!cpath_layer) { /* non-rendezvous exit */
     tor_assert(circ->package_window > 0);
     circ->package_window--;
