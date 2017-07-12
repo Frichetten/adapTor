@@ -2728,6 +2728,7 @@ entry_guard_parse_from_state(const char *s)
                   guard->identity, DIGEST_LEN);
   }
 
+  printf("Sought a bridge entrynodes.c line 2731\n");
   if (bridge_addr) {
     tor_addr_port_t res;
     memset(&res, 0, sizeof(res));

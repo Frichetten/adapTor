@@ -7,6 +7,8 @@
         "or.h": "c",
         "util_bug.h": "c",
         "channeltls.h": "c",
-        "dns_structs.h": "c"
+        "dns_structs.h": "c",
+        "relay.h": "c",
+        "hs_circuitmap.h": "c"
     }
 }

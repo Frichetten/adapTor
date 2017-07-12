@@ -731,7 +731,7 @@ connection_edge_send_command(edge_connection_t *fromconn,
     }
     return -1;
   }
-
+ 
   return relay_send_command_from_edge(fromconn->stream_id, circ,
                                       relay_command, payload,
                                       payload_len, cpath_layer);
@@ -1950,7 +1950,7 @@ connection_edge_package_raw_inbuf(edge_connection_t *conn, int package_partial,
   } else {
     connection_fetch_from_buf(payload, length, TO_CONN(conn));
   }
-  printf("||%s\n",payload);
+  //printf("||%s\n",payload);
   log_debug(domain,TOR_SOCKET_T_FORMAT": Packaging %d bytes (%d waiting).",
             conn->base_.s,
             (int)length, (int)connection_get_inbuf_len(TO_CONN(conn)));
@@ -1967,7 +1967,7 @@ connection_edge_package_raw_inbuf(edge_connection_t *conn, int package_partial,
   if (connection_edge_send_command(conn, RELAY_COMMAND_DATA, payload, length) < 0 )
     /* circuit got marked for close, don't continue, don't need to mark conn */
     return 0;
-    
+
   //printf("Is this the data transfer?\n");
   if (!cpath_layer) { /* non-rendezvous exit */
     tor_assert(circ->package_window > 0);

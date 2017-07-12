@@ -2981,7 +2981,7 @@ tor_init(int argc, char *argv[])
   quiet_level = quiet;
 
   {
-    const char *version = get_version();
+    // const char *version = get_version();
 
     // log_notice(LD_GENERAL, "Tor %s running on %s with Libevent %s, "
     //            "OpenSSL %s and Zlib %s.", version,
