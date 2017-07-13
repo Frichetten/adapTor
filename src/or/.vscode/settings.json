@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "or.h": "c",
+        "channeltls.h": "c",
+        "dns_structs.h": "c",
+        "connection_edge.h": "c"
+    }
+}

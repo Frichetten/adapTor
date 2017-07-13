@@ -2568,7 +2568,7 @@ connection_ap_handshake_attach_circuit(entry_connection_t *conn)
     /* If we have a chosen exit, we need to use a circuit that's
      * open to that exit. See what exit we meant, and whether we can use it.
      */
-    printf("Exit name %s\n",conn->chosen_exit_name);
+    //printf("Exit name %s\n",conn->chosen_exit_name);
     if (conn->chosen_exit_name) {
       const node_t *node = node_get_by_nickname(conn->chosen_exit_name, 1);
       int opt = conn->chosen_exit_optional;

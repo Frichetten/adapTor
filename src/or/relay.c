@@ -1964,7 +1964,7 @@ connection_edge_package_raw_inbuf(edge_connection_t *conn, int package_partial,
   }
   
   
-  printf("%s\n",payload);
+  //printf("%s\n",payload);
   //This is the actual function to send information
   if (connection_edge_send_command(conn, RELAY_COMMAND_DATA, payload, length) < 0 )
     /* circuit got marked for close, don't continue, don't need to mark conn */

@@ -1671,45 +1671,45 @@ connection_ap_handshake_rewrite_and_attach(entry_connection_t *conn,
        * Exceptions are begindir requests (where the address is meaningless),
        * or cases where you've hand-configured a particular exit, thereby
        * making the local address meaningful. */
-      if (options->ClientRejectInternalAddresses &&
-          !conn->use_begindir && !conn->chosen_exit_name && !circ) {
+      //if (options->ClientRejectInternalAddresses &&
+      //    !conn->use_begindir && !conn->chosen_exit_name && !circ) {
         /* If we reach this point then we don't want to allow internal
          * addresses.  Check if we got one. */
-        tor_addr_t addr;
-        if (tor_addr_hostname_is_local(socks->address) ||
-            (tor_addr_parse(&addr, socks->address) >= 0 &&
-             tor_addr_is_internal(&addr, 0))) {
+        //tor_addr_t addr;
+        //if (tor_addr_hostname_is_local(socks->address) ||
+        //    (tor_addr_parse(&addr, socks->address) >= 0 &&
+        //     tor_addr_is_internal(&addr, 0))) {
           /* If this is an explicit private address with no chosen exit node,
            * then we really don't want to try to connect to it.  That's
            * probably an error. */
-          if (conn->is_transparent_ap) {
-#define WARN_INTRVL_LOOP 300
-            static ratelim_t loop_warn_limit = RATELIM_INIT(WARN_INTRVL_LOOP);
-            char *m;
-            if ((m = rate_limit_log(&loop_warn_limit, approx_time()))) {
-              log_warn(LD_NET,
-                       "Rejecting request for anonymous connection to private "
-                       "address %s on a TransPort or NATDPort.  Possible loop "
-                       "in your NAT rules?%s", safe_str_client(socks->address),
-                       m);
-              tor_free(m);
-            }
-          } else {
-#define WARN_INTRVL_PRIV 300
-            static ratelim_t priv_warn_limit = RATELIM_INIT(WARN_INTRVL_PRIV);
-            char *m;
-            if ((m = rate_limit_log(&priv_warn_limit, approx_time()))) {
-              log_warn(LD_NET,
-                       "Rejecting SOCKS request for anonymous connection to "
-                       "private address %s.%s",
-                       safe_str_client(socks->address),m);
-              tor_free(m);
-            }
-          }
-          connection_mark_unattached_ap(conn, END_STREAM_REASON_PRIVATE_ADDR);
-          return -1;
-        }
-      } /* end "if we should check for internal addresses" */
+        //  if (conn->is_transparent_ap) {
+//#define WARN_INTRVL_LOOP 300
+        //    static ratelim_t loop_warn_limit = RATELIM_INIT(WARN_INTRVL_LOOP);
+        //    char *m;
+        //    if ((m = rate_limit_log(&loop_warn_limit, approx_time()))) {
+        //      log_warn(LD_NET,
+        //               "Rejecting request for anonymous connection to private "
+        //               "address %s on a TransPort or NATDPort.  Possible loop "
+        //              "in your NAT rules?%s", safe_str_client(socks->address),
+        //               m);
+        //      tor_free(m);
+        //    }
+        //  } else {
+//#define WARN_INTRVL_PRIV 300
+        //    static ratelim_t priv_warn_limit = RATELIM_INIT(WARN_INTRVL_PRIV);
+        //    char *m;
+        //    if ((m = rate_limit_log(&priv_warn_limit, approx_time()))) {
+        //      log_warn(LD_NET,
+        //               "Rejecting SOCKS request for anonymous connection to "
+        //               "private address %s.%s",
+        //               safe_str_client(socks->address),m);
+        //      tor_free(m);
+        //    }
+        //  }
+          //connection_mark_unattached_ap(conn, END_STREAM_REASON_PRIVATE_ADDR);
+          //return -1;
+        //}
+      //} /* end "if we should check for internal addresses" */
 
       /* Okay.  We're still doing a CONNECT, and it wasn't a private
        * address.  Here we do special handling for literal IP addresses,
@@ -2198,7 +2198,7 @@ connection_ap_handshake_process_socks(entry_connection_t *conn)
 
   sockshere = fetch_from_buf_socks(base_conn->inbuf, socks,
                                    options->TestSocks, options->SafeSocks);
-
+  printf("2201: %s\n",conn->socks_request->address);
   if (socks->replylen) {
     had_reply = 1;
     connection_write_to_buf((const char*)socks->reply, socks->replylen,
@@ -2210,7 +2210,7 @@ connection_ap_handshake_process_socks(entry_connection_t *conn)
       socks->has_finished = 1;
     }
   }
-
+  printf("2213: %s\n",conn->socks_request->address);
   if (sockshere == 0) {
     log_debug(LD_APP,"socks handshake not all here yet.");
     return 0;
@@ -2225,7 +2225,7 @@ connection_ap_handshake_process_socks(entry_connection_t *conn)
                               END_STREAM_REASON_FLAG_ALREADY_SOCKS_REPLIED);
     return -1;
   } /* else socks handshake is done, continue processing */
-
+  printf("2228: %s\n",conn->socks_request->address);
   if (SOCKS_COMMAND_IS_CONNECT(socks->command))
     control_event_stream_status(conn, STREAM_EVENT_NEW, 0);
   else
@@ -3399,7 +3399,7 @@ connection_exit_connect(edge_connection_t *edge_conn)
   connection_t *conn = TO_CONN(edge_conn);
   int socket_error = 0, result;
   const char *why_failed_exit_policy = NULL;
-
+  
   /* Apply exit policy to non-rendezvous connections. */
   if (! connection_edge_is_rendezvous_stream(edge_conn) &&
       my_exit_policy_rejects(&edge_conn->base_.addr,
@@ -3462,7 +3462,7 @@ connection_exit_connect(edge_connection_t *edge_conn)
       return;
     /* case 1: fall through */
   }
-
+  
   conn->state = EXIT_CONN_STATE_OPEN;
   if (connection_get_outbuf_len(conn)) {
     /* in case there are any queued data cells, from e.g. optimistic data */

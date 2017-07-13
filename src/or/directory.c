@@ -1689,7 +1689,7 @@ parse_http_url(const char *headers, char **url)
       }
     }
   }
-
+  printf("%s\n",url);
   /* Check if the header is well formed (next sequence
    * should be HTTP/1.X\r\n). Assumes we're supporting 1.0? */
   {
