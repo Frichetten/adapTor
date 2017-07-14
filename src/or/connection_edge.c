@@ -2181,24 +2181,24 @@ connection_ap_get_original_destination(entry_connection_t *conn,
  */
 static int
 connection_ap_handshake_process_socks(entry_connection_t *conn)
-{
+{ 
   socks_request_t *socks;
   int sockshere;
   const or_options_t *options = get_options();
   int had_reply = 0;
   connection_t *base_conn = ENTRY_TO_CONN(conn);
-
+  
   tor_assert(conn);
   tor_assert(base_conn->type == CONN_TYPE_AP);
   tor_assert(base_conn->state == AP_CONN_STATE_SOCKS_WAIT);
   tor_assert(conn->socks_request);
   socks = conn->socks_request;
-
+  
   log_debug(LD_APP,"entered.");
 
   sockshere = fetch_from_buf_socks(base_conn->inbuf, socks,
                                    options->TestSocks, options->SafeSocks);
-  printf("2201: %s\n",conn->socks_request->address);
+  
   if (socks->replylen) {
     had_reply = 1;
     connection_write_to_buf((const char*)socks->reply, socks->replylen,
@@ -2210,7 +2210,7 @@ connection_ap_handshake_process_socks(entry_connection_t *conn)
       socks->has_finished = 1;
     }
   }
-  printf("2213: %s\n",conn->socks_request->address);
+  
   if (sockshere == 0) {
     log_debug(LD_APP,"socks handshake not all here yet.");
     return 0;
@@ -2225,7 +2225,7 @@ connection_ap_handshake_process_socks(entry_connection_t *conn)
                               END_STREAM_REASON_FLAG_ALREADY_SOCKS_REPLIED);
     return -1;
   } /* else socks handshake is done, continue processing */
-  printf("2228: %s\n",conn->socks_request->address);
+  
   if (SOCKS_COMMAND_IS_CONNECT(socks->command))
     control_event_stream_status(conn, STREAM_EVENT_NEW, 0);
   else
