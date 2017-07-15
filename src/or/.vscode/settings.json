@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "or.h": "c",
+        "relay.h": "c",
+        "connection_edge.h": "c",
+        "xkeycheck.h": "c"
+    }
+}
